@@ -1,0 +1,79 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1689068808,
+        "narHash": "sha256-6ixXo3wt24N/melDWjq70UuHQLxGV8jZvooRanIHXw0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "919d646de7be200f3bf08cb76ae1f09402b6f9b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1652911770,
+        "narHash": "sha256-wf/Lg7Yi2uq5iaYxQ+soH1Q6OAW+VdqU0WYTEifmeLc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "6e3a86f2f73a466656a401302d3ece26fba401d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "6e3a86f2f73a466656a401302d3ece26fba401d9",
+        "type": "github"
+      }
+    },
+    "phpactor": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668242239,
+        "narHash": "sha256-yCapZEJspitEQtQxRLbRrCizPBezXR4eviBcyLJ0crA=",
+        "owner": "phpactor",
+        "repo": "phpactor",
+        "rev": "97aa639ecc04e80312faeea0951b28cb6c6967b8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "phpactor",
+        "ref": "2022.11.12",
+        "repo": "phpactor",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "phpactor": "phpactor"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
